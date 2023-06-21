@@ -85,6 +85,7 @@ const Industries = () => {
     //   </div>
     // </div>
     <div className="w-full">
+      {/* <div className="text-2xl max-w-[1300px] mx-auto py-8 md:py-16 mt-10 md:mt-0  text-center md:text-left "> */}
       <div className="text-2xl max-w-[1300px] mx-auto py-8 md:py-16 mt-10 md:mt-0  text-center md:text-left ">
         We cover a wide range of Industries
       </div>

@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <main className="">
       <Hero />
-      <Industries />
       <div className="h-32"></div>
       <div className="lg:w-3/4 mx-auto my-2">
         <Carousel />
       </div>
+      <Industries />
       <div className="h-32"></div>
     </main>
   );
