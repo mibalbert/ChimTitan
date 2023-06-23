@@ -30,8 +30,8 @@ const MainNav = () => {
   }, [nav]);
 
   return (
-    <div className="main-nav">
-      <div className="bg-zinc-800 w-full">
+    <div className="fixed main-nav z-50 w-full">
+      <div className=" bg-zinc-800 w-full">
         <nav className="flex justify-between items-center h-[60px] max-w-screen-2xl mx-auto px-10 text-white">
           <div>Icon</div>
           <div>1993</div>

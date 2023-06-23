@@ -6,4 +6,6 @@ import MainNav from "./Nav/MainNav";
 import Hero from "./Home/Hero";
 import SecondaryNav from "./Nav/SecondaryNav";
 import Industries from "./Home/Industries";
-export { MainNav, SecondaryNav, Hero, Industries };
+import Carousel from "./Home/Carousel";
+import Testing from "./Home/Testing";
+export { MainNav, SecondaryNav, Hero, Industries, Carousel, Testing };

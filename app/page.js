@@ -2,9 +2,9 @@
  * page.js (Home)
  */
 
-import { Hero, Industries } from "@/components";
+import { Hero, Industries, Carousel, Testing } from "@/components";
 
-import Carousel from "@/components/Home/Carousel";
+// import Carousel from "@/components/Home/Carousel";
 import Image from "next/image";
 
 export default function Home() {
