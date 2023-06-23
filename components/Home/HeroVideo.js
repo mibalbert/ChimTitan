@@ -23,7 +23,8 @@ const getVideoSource = (width) => {
 };
 
 const HeroVideo = () => {
-  const [src, setSrc] = useState(vidUrl.VID960);
+  // const [src, setSrc] = useState(vidUrl.VID960);
+  const [src, setSrc] = useState("");
 
   useEffect(() => {
     const handleResize = () => {
