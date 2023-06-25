@@ -11,21 +11,14 @@ import {
   Testing,
 } from "@/components";
 
-// import Carousel from "@/components/Home/Carousel";
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="bg-zinc-200">
+    <main>
       <Hero />
       <AboutUs />
-      {/* <div className="h-32"></div> */}
-      {/* <div className="lg:w-3/4 mx-auto my-2"> */}
-      <Carousel />
-      {/* </div> */}
       <Industries />
-      <div className="h-32"></div>
       <ShowOff />
+      <Carousel />
     </main>
   );
 }

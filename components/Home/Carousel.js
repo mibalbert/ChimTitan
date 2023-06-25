@@ -61,10 +61,13 @@ const Carousel = () => {
   );
 
   return (
-    <div className="w-full bg-white pt-10 pb-32">
+    <div className="w-full pb-24">
       <div className="max-w-[92%] 2xl:max-w-[1300px] mx-auto">
         {/* <div className="text-xl w-full text-center py-10">Our Partners</div> */}
-        <div className="text-bold text-2xl max-w-[92%] 2xl:max-w-[1300px] mx-auto py-8 md:py-16 mt-10 md:mt-0 text-center md:text-left">
+        <div
+          className="text-bold text-2xl max-w-[92%] 2xl:max-w-[1300px] mx-auto  
+        text-center md:text-left pb-12"
+        >
           Our Partners
         </div>
         <div className="overflow-hidden" ref={emblaRef}>

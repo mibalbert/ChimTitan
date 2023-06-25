@@ -1,15 +1,28 @@
 "use client";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
-import { carouselData } from "./carouselData";
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { Carousel } from "react-responsive-carousel";
+// import { carouselData } from "./carouselData";
+
+"use client";
 
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function ResponsiveCarousel() {
+  const [data, setData] = useState("");
+
+  useEffect(() => {
+    setTimeout(() => {
+      setData("The load is complete");
+    }, 1000);
+  }, []);
+
   return (
     <div>
-      <Carousel
+      <div>{data}</div>
+
+      {/* <Carousel
         showArrows={true}
         // autoPlay={true}
         showIndicators={true}
@@ -26,7 +39,7 @@ export default function ResponsiveCarousel() {
             </div>
           </div>
         ))}
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }

@@ -7,7 +7,7 @@ const vidUrl = {
   VID960: "HomePageVideos/containers-960x540.mp4",
   VID1280: "HomePageVideos/containers-1280x720.mp4",
   VID1920: "HomePageVideos/containers-1920x1080.mp4",
-  VID2560: "HomePageVideos/containers-2560x1440.mp4",
+  VID2560: "HomePageVideos/containers-2560x1440-3mb.mp4",
 };
 
 const getVideoSource = (width) => {
@@ -44,11 +44,12 @@ const HeroVideo = () => {
       <video
         key={src}
         className={
-          "relative object-cover w-full h-full min-h-[60vh] sm:min-h-[500px] max-h-[85vh] shadow-md"
+          "relative object-cover w-full h-full min-h-[60vh] sm:min-h-[500px] max-h-[80vh] shadow-lg"
         }
         autoPlay
         loop
         muted
+        preload=""
       >
         <source src={src} type="video/mp4" />
       </video>
