@@ -44,7 +44,7 @@ const HeroVideo = () => {
       <video
         key={src}
         className={
-          "relative object-cover w-full h-full min-h-[60vh] sm:min-h-[500px] max-h-[700px] "
+          "relative object-cover w-full h-full min-h-[60vh] sm:min-h-[500px] max-h-[85vh] shadow-md"
         }
         autoPlay
         loop

@@ -38,14 +38,14 @@ const Industries = () => {
   }, [showMore]);
 
   return (
-    <div className="w-full">
-      <div className="text-2xl max-w-[92%] 2xl:max-w-[1300px] mx-auto py-8 md:py-16 mt-10 md:mt-0 text-center md:text-left">
+    <div className="w-full bg-zinc-100">
+      <div className="text-bold text-2xl max-w-[92%] 2xl:max-w-[1300px] mx-auto py-8 md:py-16 mt-10 md:mt-0 text-center md:text-left">
         We cover a wide range of Industries
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 max-w-[92%] 2xl:max-w-[1300px] mx-auto gap-7 md:gap-5 lg:gap-10 ">
         {visibleIndustries.map(({ id, link, title, img, description }) => {
           return (
-            <a key={id} href={link} className="bg-zinc-100">
+            <a key={id} href={link} className="bg-white">
               <div className="h-72 relative">
                 <Image
                   className="object-cover"

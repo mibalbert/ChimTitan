@@ -61,8 +61,12 @@ const Carousel = () => {
   );
 
   return (
-    <div className="w-full">
+    <div className="w-full bg-white pt-10 pb-32">
       <div className="max-w-[92%] 2xl:max-w-[1300px] mx-auto">
+        {/* <div className="text-xl w-full text-center py-10">Our Partners</div> */}
+        <div className="text-bold text-2xl max-w-[92%] 2xl:max-w-[1300px] mx-auto py-8 md:py-16 mt-10 md:mt-0 text-center md:text-left">
+          Our Partners
+        </div>
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex">
             {carouselData.map(({ id, src, title }) => {
@@ -79,7 +83,7 @@ const Carousel = () => {
                     src={src}
                     width={100}
                     height={50}
-                    className="object-contain mx-auto"
+                    className="object-contain mx-auto "
                     alt={title}
                   />
                   <div className="py-3 text-zinc-600 text-sm">{title}</div>
